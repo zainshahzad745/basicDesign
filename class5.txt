@@ -1,0 +1,58 @@
+let apny sy neechy tk ya phr apni {} k andar andar
+fetc
+h post man between server and webiste 
+
+fetch 
+post 
+put update data
+delete
+
+
+sync line by line execution hoti hy 
+async jab tk ye kaamm horaha hy app dosra krlo jesi.
+js is by default single thread 
+multithreading is done by:
+	ik hota hy main stack, saray kaam step by step krta hy sync kaam 
+	async kaam queue may rakhti hy 
+	stack may async kaam hota hy, queue may async kaam jaty hy jesi stack empty hota hy main thread will check queue
+	joo kaam complete hojae usy stack may lay ao (Event Thread) 
+		
+	jab tk main thread empty ni hoti tb tk queue ni chaly gi 
+
+
+deep copy 
+shallow copy
+
+
+
+
+
+
+let a = true;
+
+setTimeout(()=>{
+a=false
+},2000)
+
+while(a){
+	console.log(a)
+} 
+
+
+
+base address server tk janay ka rasta 
+
+ www.fb.com  	 /login
+base address api path endpoint
+
+type button rakhni hy jab button k click pr function run krna hy 
+
+
+
+input form 
+name 
+father name 
+email 
+phone number 
+date of birth 
+

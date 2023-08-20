@@ -1,0 +1,204 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+   
+}
+
+#mainDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+
+#leftDiv{
+    width: 50%;
+    height: 100%;
+    background-image: url("https://previews.123rf.com/images/virtosmedia/virtosmedia2302/virtosmedia230248353/198739850-tropical-leaves-background-floral-design-3d-illustration.jpg");
+    background-size: cover;
+    background-attachment:center;
+}
+
+#leftDivHeading{
+
+    width: 45%;
+    height: 48%;
+    /* background-color: blanchedalmond; */
+    margin-left: 25%;
+    position: relative;
+    top: 30%;
+
+}
+
+#leftDivHeading h1{
+    color: white;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+#leftDivPara{
+
+    width: 45%;
+    height: 50%;
+    /* background-color: aqua; */
+    margin-left: 21%;
+}
+
+#leftDivPara h3 {
+
+    color: white;
+    font-weight:lighter;
+    font-size: normal;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+#rightDiv{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+}
+
+#rightdivHead{
+
+    width: 100%;
+    height: 5%;
+    /* background-color: aquamarine; */
+
+}
+#rightdivHead h6{
+
+    margin-left: 85%;
+    color: black;
+}
+
+#rightdivHead2{
+
+    width: 100%;
+    height: 15%;
+    /* background-color: beige; */
+    
+
+}
+#rightdivHead2 h1{
+    position: relative;
+    top: 20px;
+    margin-left: 30%;
+    font-weight: light;
+}
+#rightdivHead2 h5{
+    position: relative;
+    top: 30px;
+    margin-left: 30%;
+    font-weight: light;
+    font-weight: light;
+    font-size: normal;
+}
+
+
+#rightdivradio{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    margin-top: 3%;
+    width: 70%;
+    height: 10%;
+    
+    /* background-color: cadetblue; */
+}
+
+
+#rad1{
+
+    border: solid rgb(169, 169, 169) 1px;
+    width: 34%;
+    height: 55%;
+    border-radius: 5px;
+    /* margin-left: 1%; */
+}
+
+#rad2{
+    border: solid rgb(169, 169, 169) 1px;
+    width: 34%;
+    height: 55%;
+    border-radius: 5px;
+    margin-left: 3%;
+
+}
+
+#rightDivInputs{
+
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blanchedalmond; */
+    justify-content: space-between;
+
+}
+
+
+#rightDivInputs input{
+    width: 50%;
+    height: 22%;
+    margin-left: 30%;
+    border: solid rgb(215, 213, 213) 0.6px;
+    border-radius: 5px;
+}
+
+#rightDivInputs label{
+    margin-left: 30%;
+    color: rgb(0, 0, 0);
+    font-size: normal;
+    font-weight: lighter;
+}
+
+#rightDivButton{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    
+    /* background-color: black; */
+
+}
+
+#rightDivButton button{
+
+    margin-top: 1%;
+    margin-left: 30%;
+    width: 50%;
+    height: 40px;
+    outline: none;
+}
+
+#button1{
+    background-color: #26595d;
+    color: white;
+    border: none;
+
+    border-radius: 5px;
+
+}
+
+#button2{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: solid rgb(215, 213, 213) 0.9px;
+    
+
+}
+
